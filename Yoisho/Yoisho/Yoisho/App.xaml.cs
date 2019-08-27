@@ -1,4 +1,4 @@
-﻿using Xamarin.Forms;
+using Xamarin.Forms;
 
 namespace Yoisho
 {
@@ -6,6 +6,7 @@ namespace Yoisho
     {
         public App()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("##SyncfusionLicense##");
             InitializeComponent();
             MainPage = new AppShell();
         }
